@@ -3,48 +3,211 @@
     <head>
         <meta charset="utf-8">
         <title>Arrivée à Singapour</title>
-        <link rel="stylesheet" href="css/material-kit.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <script src="js/bootstrap.min.js" charset="utf-8"></script>
-        <script src="js/jquery.min.js" charset="utf-8"></script>
-        <script src="material-kit.js" charset="utf-8"></script>
-        <script src="material.min.js" charset="utf-8"></script>
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="css/stylesheet.css">
     </head>
-    <body>
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-info">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-info">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#pablo">Info Color</a>
-                </div>
 
-                <div class="collapse navbar-collapse" id="example-navbar-info">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active">
-                            <a href="#pablo" >
-                                Discover
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#pablo">
-                                Profile
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#pablo">
-                                Settings
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+    <body>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <div class="row header">
+            <div class="col s10 offset-s1">
+                <h1>Vivre et travailler à Singapour</h1>
+            </div>
+        </div>
+
+        <!-- NAVBAR -->
+        <nav class="nav-extended">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Arrivée au pays</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="">Romain Chemartin</a></li>
+                    <li><a href="">Louis Gaume</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="">Romain Chemartin</a></li>
+                    <li><a href="">Louis Gaume</a></li>
+                </ul>
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                    <li class="tab"><a class="active" href="#accespays">Accès au pays</a></li>
+                    <li class="tab"><a href="#communication">Communiquer</a></li>
+                    <li class="tab"><a href="#loisirsexterne">Loisirs et culture</a></li>
+                    <li class="tab"><a href="#comfrancaise">Communauté française</a></li>
+                </ul>
             </div>
         </nav>
         <!-- END NAVBAR -->
+        <div class="container">
+            <!-- SECTION 1 -->
+            <div id="accespays">
+                <h2>Accès au Pays</h2>
+                <!-- Résumé de la partie -->
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <span class="card-title">Dans cette partie</span>
+                                <p>Est-il facile d'intégrer Singapour ? Quelles démarches faut-il effectuer ? Quels papiers, VISA ?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin du résumé -->
+
+                Pour pouvoir travailler à Singapour il faut nécéssairement posséder un permis de travail. Les personnes possédant des passeports français peuvent se rendre à Singapour (pour une durée de moins de 3 mois) sans Visa selon plusieurs conditions :
+                <ul>
+                    <li>Passeport valide plus de six mois après la date d’arrivée dans le pays.</li>
+                    <li>Avoir un billet d'avion aller-retour</li>
+                    <li>Avoir un minimum d’argent.</li>
+                </ul>
+                Dans cette situation une fois sur place il faut éviter de quitter le territoire Singapourien pour ne pas prendre le risque de se faire refouler au moment de retourner à Singapour.
+
+                Les différents visas et types de séjour :
+
+                <table>
+                    <tr>
+                        <th>Nom du VISA</th>
+                        <th>Salaire minimum*</th>
+                        <th>Délivré pour</th>
+                        <th>Renouvelable pour</th>
+                        <th>Conditions supplémentaires</th>
+                        <th>Accompagnateurs**</th>
+                        <th>Commentaires</th>
+                    </tr>
+                    <tr>
+                        <td>P Pass</td>
+                        <td>Salaire > 8000$</td>
+                        <td>1 ou 2 ans</td>
+                        <td>1 ou 3 ans</td>
+                        <td>Posséder un diplôme d'étude supérieur et un Sponsor***</td>
+                        <td>Conjoint et enfants de moins de 21 ans</td>
+                        <td>/</td>
+                    </tr>
+                    <tr>
+                        <td>P2</td>
+                        <td>4500$ < Salaire < 8000$</td>
+                        <td>1 ou 2 ans</td>
+                        <td>1 ou 3 ans</td>
+                        <td>Posséder un diplôme d'étude supérieur et un Sponsor***</td>
+                        <td>Conjoint et enfants de moins de 21 ans</td>
+                        <td>/</td>
+                    </tr>
+
+                    <tr>
+                        <td>Q Pass</td>
+                        <td>3000$ < Salaire < 4500$</td>
+                        <td>1 ou 2 ans</td>
+                        <td>1 ou 2 ans</td>
+                        <td>Posséder un Sponsor***</td>
+                        <td>Conjoint et enfants de moins de 21 ans</td>
+                        <td>Destiné aux personnes possédants un diplôme technique</td>
+                    </tr>
+
+                    <tr>
+                        <td>S Pass</td>
+                        <td>Salaire > 2200$</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>Posséder un Sponsor***</td>
+                        <td>Conjoint et enfants de moins de 21 ans si Salaire > 4000$</td>
+                        <td>Destiné aux personnes moyennement qualifié de travailler dans l'industriel</td>
+                    </tr>
+
+                    <tr>
+                        <td>Work Permit</td>
+                        <td>Pas de critère</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>Aucun</td>
+                        <td>Destiné aux personnes semi ou non qualifiées.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Training Employement Pass</td>
+                        <td>Salaire > 3000$</td>
+                        <td>3 mois</td>
+                        <td>Non renouvelable</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>Destiné aux étudiants fréquentant des établissements d'enseignement ou stagiaire dans une société.</td>
+                    </tr>
+                </table>
+
+                <p>* : Salaire obtenu à Singapour en dollars Singapourien</p>
+                <p>** : Personne étant autorisé a entrer sur le territoire avec la personne concernée</p>
+                <p>*** : Ces personnes doivent bénéficier du support d'une société enregistée à Singapour appelé Sponsor.</p>
+
+            </div>
+            <!-- FIN SECTION 1 -->
+
+            <!-- SECTION 2 -->
+            <div id="communication">
+                <h2>Communiquer</h2>
+                <!-- Résumé de la partie -->
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <span class="card-title">Dans cette partie</span>
+                                <p>Cette partie portera sur </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin du résumé -->
+            </div>
+            <!-- FIN SECTION 2 -->
+
+            <!-- SECTION 3 -->
+            <div id="loisirsexterne">
+                <h2>Loisirs et culture</h2>
+                <!-- Résumé de la partie -->
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <span class="card-title">Dans cette partie</span>
+                                <p>Cette partie portera sur </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin du résumé -->
+
+            </div>
+            <!-- FIN SECTION 3 -->
+
+            <!-- SECTION 4 -->
+            <div id="comfrancaise">
+                <h2>Communauté française</h2>
+                <!-- Résumé de la partie -->
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <span class="card-title">Dans cette partie</span>
+                                <p>Cette partie portera sur </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin du résumé -->
+
+            </div>
+            <!-- FIN SECTION 4 -->
+        </div>
+        <footer>
+            <p>
+                Images : <a href='http://fr.freepik.com/photos-libre/lumieres-gratte-ciel-complexe-longue-exposition-singapore_1006863.htm'>Designed by Freepik</a>
+
+            </p>
+
+        </footer>
     </body>
 </html>
