@@ -13,14 +13,14 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <div class="row header">
-            <div class="col s10 offset-s1">
+            <div class="container">
                 <h1>Vivre et travailler à Singapour</h1>
             </div>
         </div>
 
         <!-- NAVBAR -->
-        <nav class="nav-extended">
-            <div class="nav-wrapper">
+        <nav class="bleu nav-extended">
+            <div class="nav-wrapper container">
                 <a href="#" class="brand-logo">Arrivée au pays</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -32,7 +32,7 @@
                     <li><a href="">Louis Gaume</a></li>
                 </ul>
             </div>
-            <div class="nav-content">
+            <div class="nav-content container">
                 <ul class="tabs tabs-transparent">
                     <li class="tab"><a class="active" href="#accespays">Accès au pays</a></li>
                     <li class="tab"><a href="#communication">Communiquer</a></li>
@@ -48,11 +48,11 @@
                 <h2>Accès au Pays</h2>
                 <!-- Résumé de la partie -->
                 <div class="row">
-                    <div class="col s12 m6">
+                    <div class="col s12 offset-m3 m6">
                         <div class="card blue-grey darken-1">
                             <div class="card-content white-text">
                                 <span class="card-title">Dans cette partie</span>
-                                <p>Est-il facile d'intégrer Singapour ? Quelles démarches faut-il effectuer ? Quels papiers, VISA ?</p>
+                                <p>Quelles démarches faut-il effectuer ? Quels papiers, VISA ?</p>
                             </div>
                         </div>
                     </div>
@@ -60,109 +60,139 @@
                 <!-- Fin du résumé -->
 
                 Pour pouvoir travailler à Singapour il faut nécéssairement posséder un permis de travail. Les personnes possédant des passeports français peuvent se rendre à Singapour (pour une durée de moins de 3 mois) sans Visa selon plusieurs conditions :
-                <ul>
-                    <li>Passeport valide plus de six mois après la date d’arrivée dans le pays.</li>
-                    <li>Avoir un billet d'avion aller-retour</li>
-                    <li>Avoir un minimum d’argent.</li>
+                <ul class="collection">
+                    <li class="collection-item">Passeport valide plus de six mois après la date d’arrivée dans le pays</li>
+                    <li class="collection-item">Avoir un billet d'avion aller-retour</li>
+                    <li class="collection-item">Avoir un minimum d’argent</li>
                 </ul>
                 Dans cette situation une fois sur place il faut éviter de quitter le territoire Singapourien pour ne pas prendre le risque de se faire refouler au moment de retourner à Singapour.
 
-                Les différents visas et types de séjour :
+                <h3>Les Visas</h3>
 
-                <table>
-                    <tr>
-                        <th>Nom du VISA</th>
-                        <th>Salaire minimum*</th>
-                        <th>Délivré pour</th>
-                        <th>Renouvelable pour</th>
-                        <th>Conditions supplémentaires</th>
-                        <th>Accompagnateurs**</th>
-                        <th>Commentaires</th>
-                    </tr>
-                    <tr>
-                        <td>P Pass</td>
-                        <td>Salaire > 8000$</td>
-                        <td>1 ou 2 ans</td>
-                        <td>1 ou 3 ans</td>
-                        <td>Posséder un diplôme d'étude supérieur et un Sponsor***</td>
-                        <td>Conjoint et enfants de moins de 21 ans</td>
-                        <td>/</td>
-                    </tr>
-                    <tr>
-                        <td>P2</td>
-                        <td>4500$ < Salaire < 8000$</td>
-                        <td>1 ou 2 ans</td>
-                        <td>1 ou 3 ans</td>
-                        <td>Posséder un diplôme d'étude supérieur et un Sponsor***</td>
-                        <td>Conjoint et enfants de moins de 21 ans</td>
-                        <td>/</td>
-                    </tr>
+                <table class="striped">
+                    <thead>
+                        <tr>
+                            <th>Nom du VISA</th>
+                            <th>Salaire minimum*</th>
+                            <th>Délivré pour</th>
+                            <th>Renouvelable pour</th>
+                            <th>Conditions supplémentaires</th>
+                            <th>Accompagnateurs**</th>
+                            <th>Commentaires</th>
+                        </tr>
+                    </thead>
 
-                    <tr>
-                        <td>Q Pass</td>
-                        <td>3000$ < Salaire < 4500$</td>
-                        <td>1 ou 2 ans</td>
-                        <td>1 ou 2 ans</td>
-                        <td>Posséder un Sponsor***</td>
-                        <td>Conjoint et enfants de moins de 21 ans</td>
-                        <td>Destiné aux personnes possédants un diplôme technique</td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>P Pass</td>
+                            <td>Salaire > 8000$</td>
+                            <td>1 ou 2 ans</td>
+                            <td>1 ou 3 ans</td>
+                            <td>Posséder un diplôme d'étude supérieur et un Sponsor***</td>
+                            <td>Conjoint et enfants de moins de 21 ans</td>
+                            <td>/</td>
+                        </tr>
 
-                    <tr>
-                        <td>S Pass</td>
-                        <td>Salaire > 2200$</td>
-                        <td>/</td>
-                        <td>/</td>
-                        <td>Posséder un Sponsor***</td>
-                        <td>Conjoint et enfants de moins de 21 ans si Salaire > 4000$</td>
-                        <td>Destiné aux personnes moyennement qualifié de travailler dans l'industriel</td>
-                    </tr>
+                        <tr>
+                            <td>P2</td>
+                            <td>4500$ < Salaire < 8000$</td>
+                            <td>1 ou 2 ans</td>
+                            <td>1 ou 3 ans</td>
+                            <td>Posséder un diplôme d'étude supérieur et un Sponsor***</td>
+                            <td>Conjoint et enfants de moins de 21 ans</td>
+                            <td>/</td>
+                        </tr>
 
-                    <tr>
-                        <td>Work Permit</td>
-                        <td>Pas de critère</td>
-                        <td>/</td>
-                        <td>/</td>
-                        <td>/</td>
-                        <td>Aucun</td>
-                        <td>Destiné aux personnes semi ou non qualifiées.</td>
-                    </tr>
+                        <tr>
+                            <td>Q Pass</td>
+                            <td>3000$ < Salaire < 4500$</td>
+                            <td>1 ou 2 ans</td>
+                            <td>1 ou 2 ans</td>
+                            <td>Posséder un Sponsor***</td>
+                            <td>Conjoint et enfants de moins de 21 ans</td>
+                            <td>Destiné aux personnes possédants un diplôme technique</td>
+                        </tr>
 
-                    <tr>
-                        <td>Training Employement Pass</td>
-                        <td>Salaire > 3000$</td>
-                        <td>3 mois</td>
-                        <td>Non renouvelable</td>
-                        <td>/</td>
-                        <td>/</td>
-                        <td>Destiné aux étudiants fréquentant des établissements d'enseignement ou stagiaire dans une société.</td>
-                    </tr>
+                        <tr>
+                            <td>S Pass</td>
+                            <td>Salaire > 2200$</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>Posséder un Sponsor***</td>
+                            <td>Conjoint et enfants de moins de 21 ans si Salaire > 4000$</td>
+                            <td>Destiné aux personnes moyennement qualifié de travailler dans l'industriel</td>
+                        </tr>
 
-                    <tr>
-                        <td>Student Pass</td>
-                        <td>/</td>
-                        <td>/</td>
-                        <td>/</td>
-                        <td>/</td>
-                        <td>/</td>
-                        <td>Permet de travailler sans Work Permit (Voir conditions)</td>
-                    </tr>
+                        <tr>
+                            <td>Work Permit</td>
+                            <td>Pas de critère</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>Aucun</td>
+                            <td>Destiné aux personnes semi ou non qualifiées.</td>
+                        </tr>
 
-                    <tr>
-                        <td>Entrepass</td>
-                        <td>/</td>
-                        <td>2 ans</td>
-                        <td>Tous les 3 ans</td>
-                        <td>Entrepreneur doit détenir au moins 30% du capital et l'entreprise doit être enregistrée en tant que Private Limited Company auprès de l'ACRA. Posséder une caution d'une banque Singapourienne de 50 000 SGD</td>
-                        <td>Conjoint et enfants de moins de 21 ans.</td>
-                        <td>Destiné aux employeurs prêt à créer une entreprise à Singapour.</td>
-                    </tr>
+                        <tr>
+                            <td>Training Employement Pass</td>
+                            <td>Salaire > 3000$</td>
+                            <td>3 mois</td>
+                            <td>Non renouvelable</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>Destiné aux étudiants fréquentant des établissements d'enseignement ou stagiaire dans une société.</td>
+                        </tr>
+
+                        <tr>
+                            <td>Student Pass</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>Permet de travailler sans Work Permit (Voir conditions)</td>
+                        </tr>
+
+                        <tr>
+                            <td>Entrepass</td>
+                            <td>/</td>
+                            <td>2 ans</td>
+                            <td>Tous les 3 ans</td>
+                            <td>Entrepreneur doit détenir au moins 30% du capital et l'entreprise doit être enregistrée en tant que Private Limited Company auprès de l'ACRA. Posséder une caution d'une banque Singapourienne de 50 000 SGD</td>
+                            <td>Conjoint et enfants de moins de 21 ans.</td>
+                            <td>Destiné aux employeurs prêt à créer une entreprise à Singapour.</td>
+                        </tr>
+                    </tbody>
+
                 </table>
 
                 <p>* : Salaire obtenu à Singapour en dollars Singapourien</p>
                 <p>** : Personne étant autorisé a entrer sur le territoire avec la personne concernée</p>
                 <p>*** : Ces personnes doivent bénéficier du support d'une société enregistée à Singapour appelé Sponsor.</p>
                 <p>Conditions : Permet de travailler sans Work Permit si l'étudiant a plus de 14 ans, est inscrit dans l'un des 45 établissements. S'il est inscrit dans l'une des 22 univertsités permet de travailler dans la limite de 16h par semaine.</p>
+
+                Pour obtenir un Employement Pass directement en ligne il faut passer par le site EP Online.
+
+                Pour effectuer les démarches en ligne : <a href="http://www.mom.gov.sg/">mom.gov.sg</a>
+
+                Pour envoyer les documents, il existe le site iSubmit qui permet de le faire facilement.
+
+                <h3>Le déménagement</h3>
+                Il peut se faire par bateau ou par avion. Il faut compter 1 semaine par avion contre 6 semaines par bateau.
+
+                Il faut prévoir 7500€ pour un 20 pieds plein (un conteneur) + 3,5% d'assurance.
+
+                <ul class="collection with-header">
+                    <li class="collection-header"><h4>Les grandes étapes</h4></li>
+                    <li class="collection-item">Étudier le marché du travail à Singapour<i class="secondary-content text-bleu material-icons">search</i></li>
+                    <li class="collection-item">Trouver un travail<i class="secondary-content text-bleu material-icons">work</i></li>
+                    <li class="collection-item">Préparer les documents nécessaires pour le travail voulu<i class="secondary-content text-bleu material-icons">receipt</i></li>
+                    <li class="collection-item">Effectuer les entretiens<i class="secondary-content text-bleu material-icons">supervisor_account</i></li>
+                    <li class="collection-item">Accepter et signer une offre de travail<i class="secondary-content text-bleu material-icons">assignment_ind</i></li>
+                    <li class="collection-item">Récupérer le VISA correspondant<i class="secondary-content text-bleu material-icons">perm_identity</i></li>
+                    <li class="collection-item">Se renseigner sur la vie la-bas<i class="secondary-content text-bleu material-icons">location_on</i></li>
+                    <li class="collection-item">Après plusieurs années faire la demande pour y vivre définitivement<i class="secondary-content text-bleu material-icons">input</i></li>
+                </ul>
 
             </div>
             <!-- FIN SECTION 1 -->
@@ -172,11 +202,11 @@
                 <h2>Communiquer</h2>
                 <!-- Résumé de la partie -->
                 <div class="row">
-                    <div class="col s12 m6">
+                    <div class="col s12 offset-m3 m6">
                         <div class="card blue-grey darken-1">
                             <div class="card-content white-text">
                                 <span class="card-title">Dans cette partie</span>
-                                <p>Cette partie portera sur </p>
+                                <p>Quelle langue apprendre ? Quelles applications utiliser ?</p>
                             </div>
                         </div>
                     </div>
@@ -190,7 +220,7 @@
                 <h2>Loisirs et culture</h2>
                 <!-- Résumé de la partie -->
                 <div class="row">
-                    <div class="col s12 m6">
+                    <div class="col s12 offset-m3 m6">
                         <div class="card blue-grey darken-1">
                             <div class="card-content white-text">
                                 <span class="card-title">Dans cette partie</span>
@@ -209,7 +239,7 @@
                 <h2>Communauté française</h2>
                 <!-- Résumé de la partie -->
                 <div class="row">
-                    <div class="col s12 m6">
+                    <div class="col s12 offset-m3 m6">
                         <div class="card blue-grey darken-1">
                             <div class="card-content white-text">
                                 <span class="card-title">Dans cette partie</span>
