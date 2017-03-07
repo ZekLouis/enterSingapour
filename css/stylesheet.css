@@ -2,10 +2,43 @@
     background-image:url('../images/baniere-singapour.jpg');
 }*/
 
+body{
+  margin-top: -40px;
+  padding-top: 0;
+}
+.header{
+  background-image: url('../images/baniere-singapour.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 400px;
+  margin-bottom: 0;
+}
+.title{
+  padding-top: 160px;
+  text-align: center;
+  text-shadow: 2px 2px #666;
+}
+
 .bleu{
     background-color: #3498db;
 }
 
 .text-bleu{
     color: #3498db;
+}
+
+
+/*  LOISIRS  */
+figcaption{
+  margin-top: 10px;
+  font-style: italic;
+  text-align: center;
+}
+
+.divider-top{
+  margin-bottom: 10px;
+}
+.divider-bottom{
+  margin-top: 10px;
 }
