@@ -1,3 +1,11 @@
 /*.header{
     background-image:url('../images/singapour-baniere.jpg');
 }*/
+
+.bleu{
+    background-color: #3498db;
+}
+
+.text-bleu{
+    color: #3498db;
+}
