@@ -9,3 +9,18 @@
 .text-bleu{
     color: #3498db;
 }
+
+
+/*  LOISIRS  */
+figcaption{
+  margin-top: 10px;
+  font-style: italic;
+  text-align: center;
+}
+
+.divider-top{
+  margin-bottom: 10px;
+}
+.divider-bottom{
+  margin-top: 10px;
+}
