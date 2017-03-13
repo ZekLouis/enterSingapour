@@ -20,8 +20,17 @@ body{
   text-shadow: 2px 2px #666;
 }
 
+.subtitle{
+    text-align: center;
+    text-shadow: 2px 2px #666;
+}
+
 .bleu{
     background-color: #3498db;
+}
+
+.bleu:hover{
+    background-color: #2980b9;
 }
 
 .text-bleu{
